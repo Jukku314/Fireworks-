@@ -39,7 +39,6 @@ const draw = () => {
         particles[i].die();
         particles[i].show();
     }
-    console.log(particles.length);
 }
 
 setInterval(draw, 20);
